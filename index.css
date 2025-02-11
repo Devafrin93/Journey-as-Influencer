@@ -144,6 +144,12 @@ header {
 
 }
 
+.lstarw {
+    display: flex;
+    justify-content: end;
+    padding: 10px 24px;
+}
+
 .footer {
     background-color: black;
     text-align: center;
@@ -218,5 +224,9 @@ header {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .logopo {
+        flex-direction: column;
+        gap: 10px;
+    }
 
 }

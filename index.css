@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+body {
+    font-family: "Poppins", serif;
+}
+
+header {
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    padding: 5px 50px;
+}
+
 .container {
     padding: 0 50px;
 }
@@ -22,4 +35,188 @@ header {
     font-size: 16px;
     font-family: "Poppins", serif;
     font-weight: 600;
+}
+
+.titlestyle {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+
+}
+
+.titlestyle button {
+    background-color: #E02C6D;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 24px;
+    border-radius: 20px;
+}
+
+.lstbtn {
+    margin-left: auto;
+    background-color: #E02C6D;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 24px;
+}
+
+.description {
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.titledes {
+    margin-top: -20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.collectionparent {
+    max-width: 1047px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: auto;
+}
+
+.heropic {
+    background-image: url("./images/Bgcamera.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 475px;
+    width: 475px;
+    margin: auto;
+}
+
+.logopo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logopo img {
+    margin: 0 20px;
+}
+
+.collectionheader {
+    text-align: center;
+
+}
+
+.section-space {
+    margin: 100px 0;
+}
+
+.sec2 {
+    width: 1110px;
+    margin: auto;
+    display: flex;
+    gap: 96px;
+    justify-content: space-between;
+}
+
+.singlecol {
+    height: 476px;
+    width: 329px;
+    padding: 14px;
+    box-shadow: 5px 5px 50px rgb(202, 196, 196);
+}
+
+.singlecol i {
+    color: #FB8200;
+}
+
+.singlecol h1 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.singlecol h4 {
+    font-size: 24px;
+    font-weight: 400;
+    height: ;
+
+}
+
+.footer {
+    background-color: black;
+    text-align: center;
+    width: 100%;
+}
+
+#ftrtxt {
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+#ftrtxt i {
+    background-color: rgb(79, 79, 80);
+    font-size: 28px;
+    margin: 10px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 5px;
+
+}
+
+@media screen and (min-width:1440px) {
+    .bar {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .bar {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .bar {
+        display: none;
+    }
+}
+
+@media screen and (max-width:834px) {
+    .bar {
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .rightnav {
+        display: none;
+    }
+
+    .bar {
+        display: block;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .collectionparent {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .sec2 {
+
+        flex-direction: column;
+
+    }
+
+    .titlestyle {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
 }
